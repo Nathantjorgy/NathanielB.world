@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathaniel B</title>
+    <style>
+        .hero-img {
+            width: 30%;
+            height: auto;
+            max-width: 100%;
+        }
+        @media (max-width: 768px) {
+            .hero-img {
+                width: 92vw;
+            }
+        }
+    </style>
 </head>
 <body style="background-color: black;">
     <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
         <h1 style="color: red; font-size: ;">You can't handle me.</h1>
-        <img src="./nathanielBB.JPG" alt="Image of a super cool Nathaniel B guy"
-            style="width: 30%;">
+        <img class="hero-img" src="./nathanielBB.JPG" alt="Image of a super cool Nathaniel B guy">
     </div>
 </body>
 </html>
